@@ -4,7 +4,8 @@ import (
 	"log"
 	"net/http"
 	"os"
-	"players/poker"
+
+	poker "github.com/vbomfim/players"
 )
 
 const dbFileName = "game.db.json"
